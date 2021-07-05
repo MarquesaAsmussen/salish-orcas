@@ -5,6 +5,28 @@
         <title>Orcas of the Salish Sea</title>
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
+    <body>
+
+First name: <input id="first_name">
+Last name: <input id="last_name">
+<button id="say">Say hi!</button>
+
+<hr>
+<div id="result"></div>
+
+<script>
+    function say_hi() {
+        var first_name = document.getElementById('first_name').value;
+        var lname = document.getElementById('last_name').value;
+
+        var html = 'Hello <b>' + fname + '</b>' +lname;
+        
+        document.getElementById('result').innerHTML = html;
+    }
+
+    document.getElementById('say').addEventListener('click', say_hi);
+</script>
+
     <header>
         <h1>Orcas of the Salish Sea</h1>
         <nav>
@@ -39,4 +61,5 @@
     <footer>
         <p>&#169;Code Fellows</p>
     </footer>
+    </body>
 </html>
