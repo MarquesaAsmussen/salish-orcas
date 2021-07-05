@@ -16,6 +16,10 @@ h1 {
     text-align: center;
 }
 
+main {
+    margin: 5%;
+}
+
 li {
     border: solid black 3px;
     display: inline;
@@ -23,4 +27,25 @@ li {
     margin: 20px;
     background-color: goldenrod;
     color: #000;
+}
+
+section {
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#dual-dorsal {
+    width: 80%;
+}
+
+#tail {
+    width: 80%;
+}
+#single-dorsal {
+    width: 80%;
 }
