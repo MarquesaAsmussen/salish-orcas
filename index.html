@@ -5,30 +5,9 @@
         <title>Orcas of the Salish Sea</title>
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
-    <body>
-
-First name: <input id="first_name">
-Last name: <input id="last_name">
-<button id="say">Say hi!</button>
-
-<hr>
-<div id="result"></div>
-
-<script>
-    function say_hi() {
-        var first_name = document.getElementById('first_name').value;
-        var lname = document.getElementById('last_name').value;
-
-        var html = 'Hello <b>' + fname + '</b>' +lname;
-        
-        document.getElementById('result').innerHTML = html;
-    }
-
-    document.getElementById('say').addEventListener('click', say_hi);
-</script>
-
     <header>
         <h1>Orcas of the Salish Sea</h1>
+        <h2 id="username"><script src="app.js"></script></h2>
         <nav>
             <ul>
                 <li><a>Home</a></li>
@@ -36,9 +15,10 @@ Last name: <input id="last_name">
                 <li><a>About</a></li>
             </ul>
         </nav>
-    </header>
+    </header>    
     <br>
     <main>
+        <h3><script src="app2.js"></script></h3>
         <section>
             <img id="dual-dorsal" src="https://davidsuzuki.org/wp-content/uploads/2018/06/salish-sea-orcas.jpg">
             <p>
@@ -57,9 +37,9 @@ Last name: <input id="last_name">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam numquam quos quam maxime voluptates nobis qui error ducimus sapiente. Animi exercitationem laudantium eum cumque, dolores rem provident, reiciendis neque officia voluptates adipisci? Minima nostrum odio totam deserunt et, blanditiis beatae, magnam fuga possimus commodi saepe harum sint doloremque, quas ad ipsa rem? Nobis numquam dicta doloribus hic excepturi deserunt laudantium aut voluptatem itaque, libero voluptatum eum accusantium esse nam architecto quo? Ea cumque tempora quis labore deleniti, quam quibusdam rerum aliquid debitis blanditiis accusantium, sed odio cupiditate quos reiciendis quae sequi veritatis, voluptatibus totam voluptatem. Voluptatem aliquid iure eius cumque!
             </p>
         </section>
+        <h4><script src="app3.js"></script></h4>
     </main>
     <footer>
         <p>&#169;Code Fellows</p>
     </footer>
-    </body>
 </html>

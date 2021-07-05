@@ -23,8 +23,8 @@ main {
 li {
     border: solid black 3px;
     display: inline;
-    padding: 2px 5px;
-    margin: 20px;
+    padding: .1em 1em;
+    margin: 1.5%;
     background-color: goldenrod;
     color: #000;
 }
