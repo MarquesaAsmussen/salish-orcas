@@ -1,3 +1,8 @@
-let user_name = prompt('Please Enter Your Name');
-console.log(user_name)
-document.write('Welcome ' + user_name + '!')
+function getUserName(){
+    let userName = prompt('Please Enter Your Name');
+    document.write('Welcome ' + userName + '!')
+    return userName;
+}
+
+let userName = getUserName()
+console.log(userName)
